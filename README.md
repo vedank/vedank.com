@@ -1,1 +1,2 @@
-# vedank.com.github.io
+
+The static personal profile website - vedank.com hosted on Github platform
