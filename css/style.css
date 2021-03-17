@@ -93,9 +93,8 @@ img {max-width: 100%;}
 .headertop ul li {display:inline-block;}
 .headertop ul li a {font-size: 18px;line-height: 22px;text-transform: capitalize;color: #fff;padding-left: 17px;padding-right: 17px;font-weight: normal;}
 .headertop ul li a:hover {color: #FD735A;}
-.letwork-btn {font-size: 18px;text-transform: capitalize;color: #fff;margin-left: 17px;margin-right: 17px;padding:12px 15px;font-weight: normal;border:1px solid #fff;}
+.letwork-btn {font-size: 18px;text-transform: capitalize;color: #fff;margin-left: 17px;padding:12px 15px;font-weight: normal;border:1px solid #fff;}
 .letwork-btn:hover{color: #fff;background: #FD735A;border-color: #FD735A;}
-a.letwork-btn:last-child {margin-left: 0;}
 section {width:100%;}
 .headerimg-inner {position:relative;}
 .headerimg-text {width: 100%;height: 100%;background: rgba(0,0,0,0.43); display: flex;align-items:center;justify-content:center;position: absolute;top:0;left: 0;}
@@ -155,7 +154,7 @@ section {width:100%;}
 .blogouter-div {border: 1px solid rgba(112,112,112,0.5);width: 100%;display: inline-block;}
 .blogimg-block {display: inline-block;}
 .blogtxt-block {width: 100%;display: inline-block;padding: 31px 17px;text-align: center;}
-.blogtxt-block h5 {font-size: 18px;line-height:22px;font-weight: 400;color: #6C6C6C;text-transform: uppercase;margin-bottom: 20px;}
+.blogtxt-block h5 {font-size: 18px;line-height:22px;font-weight: 400;color: #6C6C6C;text-transform: uppercase;margin-bottom: 20px;height: 44px;}
 .blog-readmore {font-size: 18px;line-height:22px;font-weight: 400;color: #1C1C1C;text-decoration: underline;}
 .blog-viewmore {width: 194px;
 height: 55px;background:#FD735A;box-shadow: 0px 3px 15px #00000029;font-size: 16px;line-height:55px;font-weight: 400;color: #fff;text-transform: uppercase;margin-top: 48px;margin-bottom:50px;border-color: transparent;}
@@ -202,3 +201,81 @@ border: 6px solid #FFFFFF;display: inline-block;}
 .copyright-block {height:71px;background:#3E3E3E;margin-top:92px;display:flex;align-items:center;}
 .copyright-block .user-social-link {margin-top:0;}
 .copyright-block .user-social-link li {margin:0 14px;}
+
+@media (min-width: 768px) {
+
+}
+@media (max-width: 767px) {
+      .headertop {padding:15px 10px;height:60px;}
+      .headertop ul li a {padding-left: 4px;padding-right: 4px;font-size: 13px;}
+      .letwork-btn {padding:4px;margin-left: 4px;font-size: 13px;display: inline-block;}
+      .headerimg-inner img {min-height:200px;}
+      .nameh1-heading {font-size: 32px;}
+      .nameh1-heading span {font-size: 14px;line-height: 18px;margin-bottom: 0;}
+      .nameh1-heading:after {bottom: 5px;}
+      .aboutinner-text {padding:19px 29px;}
+      .abouth2 {margin-bottom: 15px;}
+      .myservice-section {margin-top: 50px;}
+      .sectionh3-heading {font-size: 20px;}
+      .sectionh3-heading span {margin-bottom: 0;font-size: 14px;}
+      .sectionh3-heading:after {max-width: 280px;}
+      .myexpert-section {padding-top:30px;margin-top:15px;}
+      .myexp-row {margin-top:50px;}
+      .myedu-row {margin-top:30px;}
+      .certificate-txt {font-size: 16px;}
+      .worktogether-section > img {height: 150px;}
+      .worktogether-txt button {margin-top: 20px;padding:7px;height:37px;line-height: 1.6;}
+      .myarticle-section {padding-top:30px;}
+      .companyexp-h5 {font-size: 18px;}
+      .blogouter-div {margin-bottom: 30px;}
+      .blog-viewmore {margin-top: 0;}
+      .blogtxt-block h5 {font-size: 16px;margin-bottom: 15px;}
+      .happyclient-section {padding-top:30px;padding-bottom:30px;}
+      .clientreview-row {margin-top: 30px;}
+      .clientimg-div {width: 60px;height:60px;}
+      .clientreview-block {max-width: calc(100% - 90px);padding:20px 15px;margin-bottom: 30px;}
+      .clientreview-block > p {margin-bottom: 20px;}
+      .footersection {padding-top:30px;}
+      .form-group .contact-submit {width: 150px;height:40px;line-height:40px;}
+      .address-block {margin-top:30px;}
+      .address-txtblock label, .address-txtblock span {font-size: 18px;line-height: 20px;}
+      .copyright-block {margin-top:10px;height:50px;}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+      .headertop {padding:10px 30px;height:60px;}
+      .headertop ul li a {padding-left: 12px;padding-right: 12px;font-size: 16px;}
+      .letwork-btn {padding:8px;margin-left: 8px;font-size: 16px;}
+      .nameh1-heading {font-size: 40px;}
+      .nameh1-heading span {margin-bottom: 10px;}
+      .userprofile-img {height: 170px;width:170px;}
+      .aboutinner-text {padding:30px 40px;}
+      .user-social-link {margin-top:20px;}
+      .myservice-section, .myexp-row {margin-top:50px;}
+      .myedu-row {margin-top:30px;}
+      .companyexp-h5 {font-size: 20px;}
+      .myexpert-section {padding-top:50px;}
+      .certificate-img {margin-bottom: 20px;}
+      .worktogether-section > img {height: 200px;}
+      .worktogether-txt button {margin-top: 20px;}
+      .blogtxt-block h5 {font-size: 16px;}
+      .clientimg-div {width: 70px;height:70px;}
+      .happyclient-section {padding-top:50px;padding-bottom:50px;}
+      .clientreview-block {max-width: calc(100% - 95px);padding:20px 15px;margin-bottom: 30px;}
+      .clientreview-block > p {margin-bottom: 20px;}
+      .footersection {padding-top:50px;}
+      .address-row {margin-bottom: 20px;}
+      .address-txtblock label, .address-txtblock span {font-size: 20px;line-height: 24px;}
+      .copyright-block {margin-top:40px;height:60px;}
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+      .headertop {padding:15px 70px;}
+      .worktogether-section > img {height: 250px;}
+      .clientreview-block > p {margin-bottom: 40px;}
+      .copyright-block {margin-top:40px;height:60px;}
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+      .headertop {padding:15px 100px;}
+      .worktogether-section > img {height: 280px;}
+      .clientreview-block > p {margin-bottom: 50px;}
+      .copyright-block {margin-top:50px;height:70px;}
+}
