@@ -208,6 +208,8 @@ border: 6px solid #FFFFFF;display: inline-block;}
 .copyright-block {height:71px;background:#3E3E3E;margin-top:92px;display:flex;align-items:center;}
 .copyright-block .user-social-link {margin-top:0;}
 .copyright-block .user-social-link li {margin:0 14px;}
+.back-to-top {width:50px;height:50px;border-radius:50px;background:#FD735A;cursor:pointer;position:fixed;right:15px;bottom:15px;display:flex;align-items:center;justify-content:center;}
+.back-to-top img {width:30px;height:30px;}
 
 @media (min-width: 768px) {
 
