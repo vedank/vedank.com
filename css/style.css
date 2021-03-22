@@ -103,7 +103,8 @@ section {width:100%;}
 .nameh1-heading:after {content: '';height: 2px;width: 100%;max-width: 436px;background:rgba(0, 0, 0, 0) linear-gradient(to right, transparent, rgb(255, 255, 255), transparent) repeat scroll 0 0;position: absolute;bottom: -15px;left:0;right:0;margin:auto;}
 /*about me*/
 .about-section {margin-top: 48px;}
-.aboutinner-text {width:953px;padding:49px 59px; border: 1px solid #E9E9E9;margin: auto;max-width: 100%;}
+.aboutinner-text {width:953px;padding:49px 59px; border: 1px solid #E9E9E9;margin: auto;max-width: 100%;transition:all 0.5s ease-in-out;}
+.aboutinner-text:hover {box-shadow:0 7px 21px 0 rgba(0,0,0,0.1);border-color:transparent;}
 .abouth2 {color: #6C6C6C;font-size: 24px;line-height: 29px;text-transform: capitalize;margin-bottom: 24px;}
 .aboutinner-text span {font-size:18px;line-height:22px;color:#6C6C6C;margin-bottom:15px;width:100%;display:inline-block;}
 .about-readmore {font-size: 18px;line-height: 22px;color: #FD735A;text-decoration:underline;}
@@ -120,12 +121,18 @@ section {width:100%;}
 .sectionh3-heading:after {content: '';height: 2px;width: 100%;max-width:350px;background:rgba(0, 0, 0, 0) linear-gradient(to right, transparent, #6C6C6CAB, transparent) repeat scroll 0 0;position: absolute;bottom: -13px;left:0;right:0;margin:auto;}
 .myservice-imgblock {margin-top:50px;width: 100%;}
 .myservice-img {width: 100%;max-height:240px;display: inline-block;position: relative;margin-bottom: 30px;}
-.myservice-txt {width:178px;height: 40px;border-radius: 3px;background: #fff;position: absolute;left:0;right:0;top:0;bottom:0;display:flex;align-items:center;margin:auto;justify-content:center;color:#6C6C6C;text-transform: capitalize;}
+.myservice-hoverstate {width:100%;height:100%;display:flex;align-items:center;margin:auto;justify-content:center;position: absolute;left:0;right:0;top:0;bottom:0;text-align:center;transition:all 0.5s ease-in-out;}
+.myservice-txt {width:178px;height: 40px;border-radius: 3px;background: #fff;color:#6C6C6C;text-transform: capitalize;display:inline-block;line-height:40px;transition:all 0.5s ease-in-out;box-shadow:0 7px 21px 0 rgba(0,0,0,0.1);}
+.myservice-hoverstate p {font-size: 16px;line-height: 19px;font-weight: 400;color: #fff;max-width: 212px;margin-top:15px;display:none;transition:all 0.5s ease-in-out;}
+.myservice-hoverstate:hover {background: rgba(244,67,54,0.91);}
+.myservice-hoverstate:hover .myservice-txt {background:none;color:#fff;height:auto;text-decoration:underline;box-shadow: none;}
+.myservice-hoverstate:hover p {display:block;}
 /*my experttises*/
 .myexpert-section {background: #F7F7F7;padding-top: 73px;padding-bottom: 49px;margin-top: 41px;}
 .myexp-row {margin-top: 76px;}
 .myexpert-h4 {font-size: 20px;line-height: 24px;font-weight: 600;color: #565555;margin-bottom: 24px;}
 .companyexp-innner {background: #fff;border: 1px solid #E9E9E9;padding: 21px 25px;margin-bottom: 30px;}
+.companyexp-innner:hover {box-shadow:0 7px 21px 0 rgba(0,0,0,0.1);border-color:transparent}
 .companyexp-minhei {min-height: 230px;}
 .companyexp-h5 {color: #6C6C6C;font-size: 22px;line-height: 27px;margin-bottom: 17px;text-transform: capitalize;}
 .companyexp-date {font-size: 14px;line-height: 18px;font-weight: 400;color: #fff;background: #FD735A;border-radius: 4px;padding:2px 7px 0 7px;display: inline-block;}
@@ -201,12 +208,14 @@ border: 6px solid #FFFFFF;display: inline-block;}
 .copyright-block {height:71px;background:#3E3E3E;margin-top:92px;display:flex;align-items:center;}
 .copyright-block .user-social-link {margin-top:0;}
 .copyright-block .user-social-link li {margin:0 14px;}
+.back-to-top {width:50px;height:50px;border-radius:50px;background:#FD735A;cursor:pointer;position:fixed;right:15px;bottom:15px;display:flex;align-items:center;justify-content:center;}
+.back-to-top img {width:30px;height:30px;}
 
 @media (min-width: 768px) {
 
 }
 @media (max-width: 767px) {
-      .headertop {padding:15px 10px;height:60px;}
+      .headertop {padding:15px 7px;height:60px;}
       .headertop ul li a {padding-left: 4px;padding-right: 4px;font-size: 13px;}
       .letwork-btn {padding:4px;margin-left: 4px;font-size: 13px;display: inline-block;}
       .headerimg-inner img {min-height:200px;}
