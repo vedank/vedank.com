@@ -120,7 +120,7 @@ section {width:100%;}
 .sectionh3-heading span {font-size:16px;line-height:19px;margin-bottom:12px;text-transform: uppercase;display: block;color: #6C6C6C;opacity: 0.7;}
 .sectionh3-heading:after {content: '';height: 2px;width: 100%;max-width:350px;background:rgba(0, 0, 0, 0) linear-gradient(to right, transparent, #6C6C6CAB, transparent) repeat scroll 0 0;position: absolute;bottom: -13px;left:0;right:0;margin:auto;}
 .myservice-imgblock {margin-top:50px;width: 100%;}
-.myservice-img {width: 100%;max-height:240px;display: inline-block;position: relative;margin-bottom: 30px;}
+.myservice-img {width: 100%;max-height:240px;display: inline-block;position: relative;margin-bottom: 30px;text-align: center;}
 .myservice-hoverstate {width:100%;height:100%;display:flex;align-items:center;margin:auto;justify-content:center;position: absolute;left:0;right:0;top:0;bottom:0;text-align:center;transition:all 0.5s ease-in-out;}
 .myservice-txt {width:178px;height: 40px;border-radius: 3px;background: #fff;color:#6C6C6C;text-transform: capitalize;display:inline-block;line-height:40px;transition:all 0.5s ease-in-out;box-shadow:0 7px 21px 0 rgba(0,0,0,0.1);}
 .myservice-hoverstate p {font-size: 16px;line-height: 19px;font-weight: 400;color: #fff;max-width: 212px;margin-top:15px;display:none;transition:all 0.5s ease-in-out;}
@@ -145,7 +145,7 @@ section {width:100%;}
 .techskill-txt {color: #6C6C6C;font-size: 18px;line-height: 17px;font-weight: 400;margin-bottom: 28px;}
 .techskill-txt:last-child {margin-bottom: 0;}
 .certificate-img {width: 100%;display:inline-block;border-radius:6px;position: relative;overflow: hidden;}
-.certificate-txt {background: rgba(0,0,0,0.55);width: 100%;height: 100%;display:flex;position: absolute;top:0;left: 0;font-size: 18px;line-height: 22px;color: #fff;font-weight: 600;padding:0 10px;text-transform: uppercase;align-items:center;text-align: center;}
+.certificate-txt {background: rgba(0,0,0,0.55);width: 100%;height: 100%;display:flex;position: absolute;top:0;left: 0;font-size: 18px;line-height: 22px;color: #fff;font-weight: 600;padding:0 10px;text-transform: uppercase;align-items:center;text-align: center;justify-content: center;}
 /*work together*/
 .worktogether-section {width: 100%;display: inline-block;position: relative;}
 .worktogether-inner {width: 100%;height:100%;display: flex;align-items:center;background: rgba(0,0,0,0.58);position: absolute;top:0;left: 0;justify-content:center;}
